@@ -1,0 +1,33 @@
+{
+  "name": "cursor-dark-core",
+  "displayName": "Cursor Dark Core",
+  "description": "Cursor Dark Theme port for VSCode",
+  "version": "0.0.2",
+  "publisher": "imzivko",
+  "license": "MIT",
+  "author": {
+    "name": "imzivko",
+    "email": "imzivko@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cursor Dark Core",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cursor Dark Core-color-theme.json"
+      }
+    ]
+  },
+  "icon": "./cursor-logo-128x128.png",
+  "homepage": "https://github.com/imzivko/cursor-dark-core",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/imzivko/cursor-dark-core"
+  }
+}
